@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf docs"
   },
   "dependencies": {
     "solid-js": "^1.9.15"
