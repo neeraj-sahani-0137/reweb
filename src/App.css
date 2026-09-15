@@ -1,9 +1,5 @@
 @import "tailwindcss";
-
-@theme {
-  --default-font-family: "Inter", sans-serif;
-  --font-jet: "JetBrains Mono", monospace;
-}
+@import "./index.css";
 
 @layer utilities {
   .flex-center {
