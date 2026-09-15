@@ -9,7 +9,7 @@ export default function App() {
         Counter: <span class="font-jet">{count()}</span>
       </h1>
       <button
-        class="rounded-md bg-rose-400 px-4 py-2 text-black"
+        class="cursor-pointer rounded-md bg-rose-400 px-4 py-2 text-black"
         onClick={() => setCount(count() + 1)}
       >
         Increment
