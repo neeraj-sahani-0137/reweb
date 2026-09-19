@@ -1,24 +1,102 @@
-# Logs
-logs
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+.pnp
+.pnp.*
+
+# Yarn v2+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/cache
+
+# Package manager caches & outputs
+.npm/
+.bun/
+*.tgz
+.yarn-integrity
+
+# Production Builds & Framework Outputs
+dist/
+build/
+out/
+.output/
+tmp/
+.temp/
+
+# Full-Stack & SSR Frameworks
+.next/
+.nuxt/
+.nuxt-*/
+.svelte-kit/
+.astro/
+.angular/
+.turbo/
+.vercel/
+.netlify/
+
+# Static site generators & docs
+.docusaurus/
+.vuepress/dist/
+.serverless/
+
+# Testing & Coverage (Unit, E2E, Browser)
+coverage/
+*.lcov
+.nyc_output/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Cypress
+cypress/results/
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Vitest / Vite dev timestamp artifacts
+vite.config.*.timestamp-*
+vitest.config.*.timestamp-*
+
+# Caches
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Node runtimes & logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids/
+*.pid
+*.seed
+*.pid.lock
 
-node_modules
-dist
-dist-ssr
-*.local
+# Local databases (Prisma / SQLite / Local dev)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Environment & Secrets
+.env
+.env*.local
+.env.staging
+.env.production
+.env.preview
+!.env.example
+!.env.template
